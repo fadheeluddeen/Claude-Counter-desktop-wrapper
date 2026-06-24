@@ -1,12 +1,33 @@
+
 {
   "name": "claude-counter-desktop",
   "version": "0.1.0",
   "description": "A minimal Electron wrapper around claude.ai that injects the Claude Counter token/usage overlay.",
   "main": "main.js",
+  "author": "Fadheeluddeen K",
   "scripts": {
-    "start": "node launch.js"
+    "start": "node launch.js",
+    "dist": "electron-builder"
   },
   "devDependencies": {
-    "electron": "31.7.7"
+    "electron": "31.7.7",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.fadheeluddeen.claudecounterdesktop",
+    "productName": "Claude Counter Desktop",
+    "files": [
+      "main.js",
+      "preload.js",
+      "launch.js",
+      "vendor/**/*"
+    ],
+    "win": {
+      "target": "nsis"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
   }
 }
