@@ -72,4 +72,3 @@ This desktop wrapper (`main.js`, `preload.js`, `package.json`) is original work.
   [`vendor/THIRD_PARTY_NOTICES.md`](./vendor/THIRD_PARTY_NOTICES.md).
 
 Unofficial project. Not affiliated with, endorsed by, or sponsored by Anthropic. "Claude" is a trademark of Anthropic. This tool loads claude.ai and only reads your own account's usage data, locally on your machine.
-![alt text](screenshot.png)
