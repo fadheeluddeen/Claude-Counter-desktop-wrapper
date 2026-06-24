@@ -1,0 +1,17 @@
+# Dependencies (rebuilt by `pnpm install` on each machine — never commit)
+node_modules/
+
+# Build output
+dist/
+out/
+
+# Logs
+npm-debug.log*
+pnpm-debug.log*
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.claude/

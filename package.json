@@ -1,0 +1,12 @@
+{
+  "name": "claude-counter-desktop",
+  "version": "0.1.0",
+  "description": "A minimal Electron wrapper around claude.ai that injects the Claude Counter token/usage overlay.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node launch.js"
+  },
+  "devDependencies": {
+    "electron": "31.7.7"
+  }
+}
