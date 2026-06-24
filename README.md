@@ -7,6 +7,7 @@ desktop window instead of a browser tab.
 
 This is **not** a modification of Anthropic's official Claude desktop app. It's a separate,
 minimal browser-window wrapper that loads claude.ai and injects the Counter's scripts.
+![alt text](screenshot.png)
 
 ## Install & run
 
